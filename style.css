@@ -4,7 +4,7 @@
 .option-one-screen, 
 .option-two-screen, 
 .option-one-end, 
-.option-two-end  {
+.option-two-end {
    display:none;
 }
 
@@ -15,21 +15,22 @@ html,
 body {
     margin: 0;
     padding: 0;
+    background-color: #567658;
 }
 
 /* Style the body with a background color or image if desired */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    font-family: MedievalSharp;
     text-align: center;
     padding: 20px;
 }
 
 /* Style the title of your story */
 .title {
-    font-size: 24px;
+    font-size: 34px;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #fff;
 }
 
 /* Style the story opening container */
@@ -70,6 +71,7 @@ button {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    font-family: MedievalSharp;
 }
 
 button:hover {
@@ -86,6 +88,7 @@ button:hover {
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 10px;
+    background-color: #fff;
 }
 
 /* Style the images in the screens */
@@ -105,11 +108,4 @@ button:hover {
 .option-two-end h1 {
     font-size: 20px;
     margin-bottom: 20px;
-}
-
-.option-one-screen,
-.option-two-screen,
-.option-one-end,
-.option-two-end {
-background-image: url("https://moewalls.com/wp-content/uploads/2023/11/cat-overgrown-shelter-stray-thumb.jpg");
 }
